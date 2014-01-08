@@ -36,14 +36,14 @@ namespace ChromiumTraceAnalyzer
                 Console.WriteLine("FieldVal={0} Count={1}", kvp.Key, kvp.Value);
             }
 
-            Console.WriteLine(".Name Order (oldest last)");
+            Console.WriteLine(".Name Order (newest last)");
 
             foreach (string val in m_nameOrder)
             {
                 Console.WriteLine(val);
             }
 
-            Console.WriteLine(".Source (oldest last)");
+            Console.WriteLine(".Source (newest last)");
 
             foreach (string srcFile in m_srcOrder)
             {
